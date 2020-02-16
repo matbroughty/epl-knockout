@@ -1,0 +1,15 @@
+type Player {
+id: ID!,
+name: String,
+stars: Int,
+paid: Boolean
+}
+
+type Query {
+players(count: Int):[Player]
+player(id: ID):Player
+}
+
+type Mutation {
+createPlayer(name: String!, stars: Int!, paid: Boolean!):Player
+}
