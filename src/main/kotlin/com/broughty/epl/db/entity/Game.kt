@@ -9,7 +9,7 @@ import javax.persistence.*
 data class Game(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id: Int,
+    val id: Int = 0,
 
     @Column(nullable = false)
     val name: String,

@@ -5,5 +5,5 @@ import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface PlayerRepository : CrudRepository<Player, Long> {
+interface PlayerRepository : CrudRepository<Player, Int> {
 }
