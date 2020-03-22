@@ -2,8 +2,8 @@ package com.broughty.epl.graphql.query
 
 import com.broughty.epl.db.entity.Player
 import com.broughty.epl.db.repository.PlayerRepository
-import com.coxautodev.graphql.tools.GraphQLMutationResolver
-import com.coxautodev.graphql.tools.GraphQLQueryResolver
+import graphql.kickstart.tools.GraphQLMutationResolver
+import graphql.kickstart.tools.GraphQLQueryResolver
 import org.springframework.stereotype.Component
 import java.util.*
 import java.util.stream.Collectors

@@ -27,10 +27,8 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-	//implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-	//implementation("org.liquibase:liquibase-core")
-	implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:6.0.0")
-	implementation("com.graphql-java-kickstart:graphiql-spring-boot-starter:6.0.0")
+	implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:7.0.0")
+	implementation("com.graphql-java-kickstart:graphiql-spring-boot-starter:7.0.0")
 	runtimeOnly("com.h2database:h2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
